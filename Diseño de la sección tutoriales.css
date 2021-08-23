@@ -1,0 +1,131 @@
+body{
+    background-color: gray;
+    color: mintcream;
+    margin: 0px;
+
+}
+.logo{
+    margin: 0px;
+}
+.logo img{
+    width: 180px;
+    
+}
+.header{
+    background-color: rgb(51, 57, 63);
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    height: inherit;
+    align-items: center;
+    padding: 0px 10px;
+    display: flex;
+    font-family: 'Play', sans-serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+    height: inherit;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+}
+.menu{
+    height: inherit;
+}
+header li{
+    height: inherit;
+}
+.menu li a:hover{
+    background-color: #434343;
+}
+.menu li ul{
+    position: absolute;
+    display: none;
+    min-width: 140px;
+    padding: 0px;
+}
+.menu li:hover> ul{
+    display: block;
+}
+.menu li ul li{
+    position: relative;
+}
+.menu li ul li ul{
+    left: -140px;
+    top: 0px;
+    max-width: 140px;
+    text-align: left;
+}
+.menu li ul li ul .Sombreado-y-detallado{
+    font-size: 10px;
+}
+.dibujo-realista{
+    background-color: rgb(55, 57, 59);
+}
+.Principal{
+    background-image: url("imganes/Background\ MegamanVega\ Academy.png");
+    background-size: cover;
+    padding: 100px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.dibujo-realista h2{
+    font-size: 25px;
+    border: none;
+    margin: 0px;
+    padding: 0px 0px 0px 6px;
+    
+}
+.Tutoriales-de-dibujo{
+    background-color: rgb(55, 57, 59);
+    text-align: center;
+}
+.Tutoriales-de-dibujo h1{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    padding: 40px 0px 15px 0px;
+    margin: 0px;
+    color: magenta;
+}
+.Principal img{
+    width: 200px;
+}
+.dibujo-realista h3{
+    padding: 0px 0px 0px 30px;
+
+}
+.dibujo-realista iframe{
+    padding: 0px 0px 0px 30px;
+}
+.dibujo-realista h2{
+    font-family: 'Play', sans-serif;
+    font-size: 30px;
+}
+.Sombreado-y-detallado{
+    background-color: rgb(39, 42, 44);
+}
+.Sombreado-y-detallado h2{
+    font-family: 'Play', sans-serif;
+    font-size: 30px;
+}
+.Sombreado-y-detallado{
+    font-size: 25px;
+    border: none;
+    margin: 0.0;
+    padding: 0px 0px 0px 6px;
+}
+.Sombreado-y-detallado h3{
+    padding: 0px 0px 0px 30px;
+}
+.Sombreado-y-detallado iframe{
+    padding: 0px 0px 0px 30px;
+}
+.Sombreado-y-detallado h3{
+    font-size: 23.5px;
+}

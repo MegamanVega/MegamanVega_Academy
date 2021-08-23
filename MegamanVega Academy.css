@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+}
+
+.header {
+    background-color: rgb(51, 57, 63);
+    color: white;
+    display:flex;
+    justify-content:space-between;
+    height: 90px;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    font-family: 'Play', sans-serif;
+}
+.header li{
+    height: inherit;
+}
+
+
+body {
+    background-color: gray; 
+    color: mintcream;
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+}
+
+
+
+.menu{
+    height: inherit;
+}
+.logo img {
+        width: 90px;
+}
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+.principal {
+    background-color: steelblue;
+    background-image: url("imganes/Background\ MegamanVega\ Academy.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px;
+}
+.principal img{
+    width: 200px;
+    padding: 0px 0px 20px;
+}
+.principal-botón{
+    width: 250px;
+    height: 40px;
+    background-color:#2c09f3;
+    border-radius: 24px;
+    border: none ;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    color: white;
+}
+.principal-botón a{
+    background: none;
+}
+.principal h1{
+    padding: 0px;
+}
+.Somos {
+    background-color: rgba(46, 161, 94, 0.308);
+    text-align: left;
+    padding: 50px;
+    background-color: rgb(51, 57, 63);;
+    font-size: 20px;
+}
+
+.Somos p{
+    margin-bottom: 20px;
+}
+.Somos h2{
+    font-family: 'Play', sans-serif;
+    font-size: 40px;
+    color: cyan;
+    margin-bottom: 10px;
+}
+
+.como-usar{
+    height: 500px;
+    background-color: rgb(46, 51, 54);
+    display: flex;
+}
+
+.publicación-1{
+    background-color: dimgrey;
+    width: 784px;
+}
+.publicación-1 img{
+    padding: 0px 40px 20px;
+    width: 700px;
+    height: 390px;
+}
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+h1 strong{
+    color: lime;
+}
+
+
+/*
+.padre{
+    background-color: slategray;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+.hijo{
+    background-color: slategray;
+    width: 200px;
+    height: 200px;
+    border: 2px solid lime; 
+    font-size: 30px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+.aplicar-detalles{
+    height: inherit;
+   text-align: center;
+    padding: 0px 30px;
+}
+nav li a:hover{
+    background-color: #434343;
+}
+.principal-boton:hover{
+    background-color: #434343;
+}
+.publicación-1 p{
+    padding: 0px 20px;
+}
+.publicación-1 h2{
+    padding: 0px 30px;
+}
+.publicación-1 strong{
+    text-align: right;
+    color: white;
+    font-size: 50px;
+    padding: 0px 0px 0px 100px;
+}
+.Somos h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+    color: gold;
+}
+.principal-boton{
+    text-align:center;
+}
+
