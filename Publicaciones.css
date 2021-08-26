@@ -1,0 +1,95 @@
+*{
+    margin: 0
+}
+body {
+    background-color: gray; 
+    color: mintcream;
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+}
+/*menu*/
+.logo img {
+    width: 90px;
+}
+ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+display: flex;
+height: inherit;
+}
+
+nav li a:hover{
+    background-color: #434343;
+}
+.menu{
+    height: inherit;
+}
+.header {
+    background-color: rgb(51, 57, 63);
+    color: white;
+    display:flex;
+    justify-content:space-between;
+    height: 100px;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    font-family: 'Play', sans-serif;
+}
+.header li{
+    height: inherit;
+    font-size: 25px;
+}
+/*PUBLICACIONES*/
+.publicaciones {
+    text-align: left;
+    padding: 50px;
+    background-color: rgb(73, 75, 77);;
+    font-size: 20px;
+}
+.publicaciones p{
+    padding: 0px 20px;
+    }
+.publicaciones p{
+    margin-bottom: 20px;
+}
+.publicaciones h2{
+    font-family: 'Play', sans-serif;
+    font-size: 40px;
+    color: cyan;
+    margin-bottom: 10px;
+}
+.publicaciones h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+    color: gold;
+}
+     /*articulo 1*/
+
+.publicación-1 h2{
+    padding: 0px 30px;
+}
+.publicación-1 strong{
+    text-align: right;
+    color: white;
+    font-size: 50px;
+    padding: 0px 0px 0px 100px;
+}
+
+.publicación-1{
+    background-color: #735050;
+    width: 784px;
+}
+.publicación-1 img{
+    padding: 0px 40px 20px;
+    width: 700px;
+    height: 390px
+}
+     /*articulo 2*/
