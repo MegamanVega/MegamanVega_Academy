@@ -47,6 +47,11 @@ nav li a:hover{
 }
 /*PUBLICACIONES*/
 .publicaciones {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: left;
     padding: 50px;
     background-color: rgb(73, 75, 77);;
@@ -86,6 +91,9 @@ nav li a:hover{
 .publicación-1{
     background-color: #735050;
     width: 784px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 15px;
 }
 .publicación-1 img{
     padding: 0px 40px 20px;
