@@ -188,3 +188,15 @@ nav li a:hover{
     margin: 0px;
     padding: 0px;
 }
+/*Contactos*/
+.contactos{
+    display: flex;
+    justify-content: center;
+}
+.contactos_container{
+    display: flex;
+}
+.contactos_hijo1 img{
+    width: 300px;
+    flex-direction: column;
+}

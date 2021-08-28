@@ -57,6 +57,9 @@ nav li a:hover{
     background-color: rgb(73, 75, 77);;
     font-size: 20px;
 }
+.publicación-1{
+    border: black 2px solid;
+}
 .publicaciones p{
     padding: 0px 20px;
     }
@@ -66,7 +69,7 @@ nav li a:hover{
 .publicaciones h2{
     font-family: 'Play', sans-serif;
     font-size: 40px;
-    color: cyan;
+    color: #001C99;
     margin-bottom: 10px;
 }
 .publicaciones h1{
@@ -81,15 +84,9 @@ nav li a:hover{
 .publicación-1 h2{
     padding: 0px 30px;
 }
-.publicación-1 strong{
-    text-align: right;
-    color: white;
-    font-size: 50px;
-    padding: 0px 0px 0px 100px;
-}
 
 .publicación-1{
-    background-color: #735050;
+    background-color: #A6D2FF;
     width: 784px;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -99,5 +96,23 @@ nav li a:hover{
     padding: 0px 40px 20px;
     width: 700px;
     height: 390px
+}
+.pie{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Principal-boton{
+    width: 150px;
+    height: 35px;
+    margin-right: 35px;
+    border-radius: 1em;
+    border: none;
+    background-color: #642F99;
+    color: white;
+    font-family: 'Play', sans-serif;
+    font-size: 17px;
 }
      /*articulo 2*/
