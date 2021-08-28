@@ -199,4 +199,11 @@ nav li a:hover{
 .contactos_hijo1 img{
     width: 300px;
     flex-direction: column;
+    align-items: center;
+}
+.contactos_hijo2{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 80px 0px 0px;
 }
